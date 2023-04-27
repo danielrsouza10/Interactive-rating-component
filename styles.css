@@ -16,7 +16,7 @@
 main {
     height: 100vh;
     display: flex;
-    ;
+    
     background-color: black;
 }
 
@@ -26,13 +26,22 @@ main {
     align-items: center;
 }
 
-svg{
+/* svg{
     display: flex;
     height: 50px;
     width: 50px;
     border-radius: 50%;
     background-color: gray;
     
+} */
+
+#svg-container{
+   
+    
+}
+
+.rating-circle:hover{
+    background-color: orange;
 }
 
 
@@ -44,7 +53,7 @@ h1{
 #rating-container {
     
     margin: auto;
-    border: 1px solid black;
+    
     border-radius: 3%;
     width: 40vw;
     padding: 25px;
@@ -52,7 +61,7 @@ h1{
 }
 
 #title {
-    border: 1px solid black;
+    
  
 }
 
@@ -61,7 +70,7 @@ h1{
 }
 
 #rating-numbers {
-    border: 1px solid red;
+    
     display: flex;
     justify-content: space-around;
     
@@ -82,15 +91,24 @@ h1{
 
 span {
     text-align: center;
-    border: 1px solid red;
+    
 
 }
 
 #submit {
     margin-top: 10px;
     border: 1px solid black;
-    display: flex;
-    justify-content: center;
+    display: block;
+    width: 100%;
     
 
+}
+
+button{
+    background-color: orange;
+}
+
+button:hover{
+    background-color: white;
+    color: orange;
 }
