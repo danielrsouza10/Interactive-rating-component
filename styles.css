@@ -1,6 +1,7 @@
 *{
    box-sizing: border-box;
    margin: 0; 
+   font-family: Overpass;
 }
 
 .attribution {
@@ -42,12 +43,14 @@ main {
 
 .rating-circle:hover{
     background-color: orange;
+    
 }
 
 
 
 h1{
     padding: 10px 0 10px 0;
+    color: hsl(0, 0%, 100%);
 }
 
 #rating-container {
@@ -56,8 +59,10 @@ h1{
     
     border-radius: 3%;
     width: 40vw;
+    min-width: 350px;
+    max-width: 450px;
     padding: 25px;
-    background-color: rgb(105, 105, 105);
+    background-color: hsl(216, 12%, 8%);
 }
 
 #title {
@@ -67,6 +72,8 @@ h1{
 
 .text{
     margin: 10px 0 10px 0;
+    font-size: 15px;
+    color: hsl(217, 12%, 63%);
 }
 
 #rating-numbers {
@@ -81,7 +88,7 @@ h1{
     height: 50px;
     width: 50px;
     border-radius: 50%;
-    background-color: gray;
+    background-color: hsl(213, 19%, 18%);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -91,6 +98,7 @@ h1{
 
 span {
     text-align: center;
+    color: hsl(217, 12%, 63%);
     
 
 }
@@ -105,10 +113,13 @@ span {
 }
 
 button{
-    background-color: orange;
+    font-weight: bold;
+    background-color: hsl(25, 97%, 53%);
+    height: 40px;
+    border-radius: 10px 10px 10px 10px;
 }
 
 button:hover{
     background-color: white;
-    color: orange;
+    color: hsl(25, 97%, 53%);
 }
