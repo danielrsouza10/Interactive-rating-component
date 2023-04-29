@@ -1,7 +1,7 @@
 *{
    box-sizing: border-box;
    margin: 0; 
-   font-family: Overpass;
+   font-family: [Overpass];
 }
 
 .attribution {
@@ -21,24 +21,22 @@ main {
     background-color: black;
 }
 
+#rating-container {
+    
+    margin: auto;
+    border-radius: 20px;
+    width: 40vw;
+    min-width: 350px;
+    max-width: 450px;
+    padding: 25px;
+    background-color: hsl(216, 12%, 8%);
+}
+
+
 #icon-container{
     display: flex;
     justify-content: flex-start;
     align-items: center;
-}
-
-/* svg{
-    display: flex;
-    height: 50px;
-    width: 50px;
-    border-radius: 50%;
-    background-color: gray;
-    
-} */
-
-#svg-container{
-   
-    
 }
 
 .rating-circle:hover{
@@ -46,24 +44,11 @@ main {
     
 }
 
-
-
 h1{
     padding: 10px 0 10px 0;
     color: hsl(0, 0%, 100%);
 }
 
-#rating-container {
-    
-    margin: auto;
-    
-    border-radius: 3%;
-    width: 40vw;
-    min-width: 350px;
-    max-width: 450px;
-    padding: 25px;
-    background-color: hsl(216, 12%, 8%);
-}
 
 #title {
     
@@ -116,10 +101,58 @@ button{
     font-weight: bold;
     background-color: hsl(25, 97%, 53%);
     height: 40px;
-    border-radius: 10px 10px 10px 10px;
+    border-radius: 20px;
 }
 
 button:hover{
     background-color: white;
     color: hsl(25, 97%, 53%);
 }
+
+#thank-you{
+    height: 100vh;
+    display: flex;
+    color: black;
+    background-color: black;
+    
+    
+}
+
+#thank-you-container{
+    margin: auto;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 30px;
+    width: 40vw;
+    min-width: 350px;
+    max-width: 450px;
+    padding: 25px;
+    background-color: hsl(216, 12%, 8%);
+    
+    
+}
+
+#you-selected{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    padding: 10px 20px 10px 20px;
+    background-color: hsl(213, 19%, 18%);
+    border-radius: 20px;
+    color: hsl(25, 97%, 53%);
+    font-weight: bold;
+}
+
+#thank-you-img{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    
+}
+
+#thank-you-container > .text{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
