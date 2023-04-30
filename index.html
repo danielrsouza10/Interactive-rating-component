@@ -8,7 +8,11 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="./styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap" rel="stylesheet">
   <script src="script.js" defer></script>
+
   <!-- <link rel="stylesheet" href="https://fonts.google.com/specimen/Overpass"> -->
 
   <title>Frontend Mentor | Interactive rating component</title>
@@ -50,14 +54,14 @@
       </p>
 
       <div id="rating-numbers">
-        <span class="rating-circle"><span>1</span></span>
-        <span class="rating-circle"><span>2</span></span>
-        <span class="rating-circle"><span>3</span></span>
-        <span class="rating-circle"><span>4</span></span>
-        <span class="rating-circle"><span>5</span></span>
+        <span class="rating-circle"><span></span>1</span>
+        <span class="rating-circle"><span></span>2</span>
+        <span class="rating-circle"><span></span>3</span>
+        <span class="rating-circle"><span></span>4</span>
+        <span class="rating-circle"><span></span>5</span>
       </div>
 
-      <div><button type="submit" id="submit">Submit</button></div>
+      <div> <a href="#you-selected"> <button type="submit" id="submit">Submit</button></a></div>
 
     </div>
 
@@ -71,7 +75,9 @@
 
       <div id="thank-you-img">
         <img src="./images/illustration-thank-you.svg" alt="thank-you-image">
-        <div id="you-selected"><figcaption>You selected <!-- Add rating here --> out of 5</figcaption></div>
+        <div id="you-selected">
+          <figcaption>Please, rate us so we can improve</figcaption>
+        </div>
       </div>
 
       <h1>Thank you!</h1>
@@ -81,7 +87,7 @@
 
 
     </div>
-    
+
 
   </div>
 
